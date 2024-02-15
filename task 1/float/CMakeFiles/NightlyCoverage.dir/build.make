@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ivank/parrallel/1_task
+CMAKE_SOURCE_DIR = /home/ivank/parrallel/1_task/task1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ivank/parrallel/1_task/float
+CMAKE_BINARY_DIR = /home/ivank/parrallel/1_task/task1/float
 
 # Utility rule file for NightlyCoverage.
 
@@ -82,6 +82,6 @@ CMakeFiles/NightlyCoverage.dir/clean:
 .PHONY : CMakeFiles/NightlyCoverage.dir/clean
 
 CMakeFiles/NightlyCoverage.dir/depend:
-	cd /home/ivank/parrallel/1_task/float && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ivank/parrallel/1_task /home/ivank/parrallel/1_task /home/ivank/parrallel/1_task/float /home/ivank/parrallel/1_task/float /home/ivank/parrallel/1_task/float/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ivank/parrallel/1_task/task1/float && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ivank/parrallel/1_task/task1 /home/ivank/parrallel/1_task/task1 /home/ivank/parrallel/1_task/task1/float /home/ivank/parrallel/1_task/task1/float /home/ivank/parrallel/1_task/task1/float/CMakeFiles/NightlyCoverage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyCoverage.dir/depend
 

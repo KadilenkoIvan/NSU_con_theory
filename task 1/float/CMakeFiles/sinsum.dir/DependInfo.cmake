@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ivank/parrallel/1_task/task1/main.cpp" "CMakeFiles/sin_sum.dir/main.cpp.o" "gcc" "CMakeFiles/sin_sum.dir/main.cpp.o.d"
+  "/home/ivank/parrallel/1_task/task1/main.cpp" "CMakeFiles/sinsum.dir/main.cpp.o" "gcc" "CMakeFiles/sinsum.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

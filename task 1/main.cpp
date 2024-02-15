@@ -3,7 +3,7 @@
 
 #define SIZE 10000000
 
-#ifdef FLOAT
+#if FLOAT == 1
     #define TYPE float
 #else
     #define TYPE double

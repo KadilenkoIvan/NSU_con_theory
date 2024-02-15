@@ -1,4 +1,4 @@
-# Install script for directory: /home/ivank/parrallel/1_task
+# Install script for directory: /home/ivank/parrallel/1_task/task1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ivank/parrallel/1_task/float/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ivank/parrallel/1_task/task1/float/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
