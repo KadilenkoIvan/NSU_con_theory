@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/task1.dir/main.cpp.o -o task1  -fopenmp -lm 

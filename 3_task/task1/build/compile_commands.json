@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ivank/NSU/parrallel/3_task/build",
+  "command": "/usr/bin/g++   -g -fopenmp -o CMakeFiles/task1.dir/main.cpp.o -c /home/ivank/NSU/parrallel/3_task/main.cpp",
+  "file": "/home/ivank/NSU/parrallel/3_task/main.cpp"
+}
+]

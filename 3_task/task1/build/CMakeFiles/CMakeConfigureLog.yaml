@@ -1,0 +1,447 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
+      Сборка начата 05.03.2024 16:18:36.
+      
+      Проект "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.69
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/3.28.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
+      Сборка начата 05.03.2024 16:18:38.
+      
+      Проект "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.27
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/3.28.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-siphx4"
+      binary: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-siphx4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-siphx4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46708.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
+        Сборка начата 05.03.2024 16:18:40.
+        
+        Проект "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-siphx4\\cmTC_46708.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_46708.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-siphx4\\Debug\\".
+          Создание каталога "cmTC_46708.dir\\Debug\\cmTC_46708.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_46708.dir\\Debug\\cmTC_46708.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_46708.dir\\Debug\\cmTC_46708.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46708.dir\\Debug\\\\" /Fd"cmTC_46708.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33135 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46708.dir\\Debug\\\\" /Fd"cmTC_46708.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-siphx4\\Debug\\cmTC_46708.exe" /INCREMENTAL /ILK:"cmTC_46708.dir\\Debug\\cmTC_46708.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-siphx4/Debug/cmTC_46708.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-siphx4/Debug/cmTC_46708.lib" /MACHINE:X64  /machine:x64 cmTC_46708.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_46708.vcxproj -> D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-siphx4\\Debug\\cmTC_46708.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_46708.dir\\Debug\\cmTC_46708.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_46708.dir\\Debug\\cmTC_46708.tlog\\cmTC_46708.lastbuildstate".
+        Сборка проекта "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-siphx4\\cmTC_46708.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.09
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-itvkaj"
+      binary: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-itvkaj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-itvkaj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_66191.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
+        Сборка начата 05.03.2024 16:18:42.
+        
+        Проект "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itvkaj\\cmTC_66191.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_66191.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itvkaj\\Debug\\".
+          Создание каталога "cmTC_66191.dir\\Debug\\cmTC_66191.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_66191.dir\\Debug\\cmTC_66191.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_66191.dir\\Debug\\cmTC_66191.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_66191.dir\\Debug\\\\" /Fd"cmTC_66191.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33135 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_66191.dir\\Debug\\\\" /Fd"cmTC_66191.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itvkaj\\Debug\\cmTC_66191.exe" /INCREMENTAL /ILK:"cmTC_66191.dir\\Debug\\cmTC_66191.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-itvkaj/Debug/cmTC_66191.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-itvkaj/Debug/cmTC_66191.lib" /MACHINE:X64  /machine:x64 cmTC_66191.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_66191.vcxproj -> D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itvkaj\\Debug\\cmTC_66191.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_66191.dir\\Debug\\cmTC_66191.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_66191.dir\\Debug\\cmTC_66191.tlog\\cmTC_66191.lastbuildstate".
+        Сборка проекта "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itvkaj\\cmTC_66191.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.06
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-he93dy"
+      binary: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-he93dy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-he93dy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28b93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
+        Сборка начата 05.03.2024 16:18:44.
+        
+        Проект "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he93dy\\cmTC_28b93.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_28b93.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he93dy\\Debug\\".
+          Создание каталога "cmTC_28b93.dir\\Debug\\cmTC_28b93.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_28b93.dir\\Debug\\cmTC_28b93.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_28b93.dir\\Debug\\cmTC_28b93.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_28b93.dir\\Debug\\\\" /Fd"cmTC_28b93.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he93dy\\OpenMPTryFlag.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33135 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_28b93.dir\\Debug\\\\" /Fd"cmTC_28b93.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he93dy\\OpenMPTryFlag.c"
+          OpenMPTryFlag.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he93dy\\Debug\\cmTC_28b93.exe" /INCREMENTAL /ILK:"cmTC_28b93.dir\\Debug\\cmTC_28b93.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-he93dy/Debug/cmTC_28b93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-he93dy/Debug/cmTC_28b93.lib" /MACHINE:X64  /machine:x64 cmTC_28b93.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_28b93.vcxproj -> D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he93dy\\Debug\\cmTC_28b93.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_28b93.dir\\Debug\\cmTC_28b93.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_28b93.dir\\Debug\\cmTC_28b93.tlog\\cmTC_28b93.lastbuildstate".
+        Сборка проекта "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he93dy\\cmTC_28b93.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.06
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-bhjr5x"
+      binary: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-bhjr5x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-bhjr5x'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_77a51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
+        Сборка начата 05.03.2024 16:18:45.
+        
+        Проект "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhjr5x\\cmTC_77a51.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_77a51.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhjr5x\\Debug\\".
+          Создание каталога "cmTC_77a51.dir\\Debug\\cmTC_77a51.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_77a51.dir\\Debug\\cmTC_77a51.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_77a51.dir\\Debug\\cmTC_77a51.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_77a51.dir\\Debug\\\\" /Fd"cmTC_77a51.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhjr5x\\OpenMPTryFlag.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33135 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_77a51.dir\\Debug\\\\" /Fd"cmTC_77a51.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhjr5x\\OpenMPTryFlag.cpp"
+          OpenMPTryFlag.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhjr5x\\Debug\\cmTC_77a51.exe" /INCREMENTAL /ILK:"cmTC_77a51.dir\\Debug\\cmTC_77a51.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-bhjr5x/Debug/cmTC_77a51.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-bhjr5x/Debug/cmTC_77a51.lib" /MACHINE:X64  /machine:x64 cmTC_77a51.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_77a51.vcxproj -> D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhjr5x\\Debug\\cmTC_77a51.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_77a51.dir\\Debug\\cmTC_77a51.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_77a51.dir\\Debug\\cmTC_77a51.tlog\\cmTC_77a51.lastbuildstate".
+        Сборка проекта "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bhjr5x\\cmTC_77a51.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.08
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-405gwl"
+      binary: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-405gwl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-405gwl'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_76061.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
+        Сборка начата 05.03.2024 16:18:47.
+        
+        Проект "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-405gwl\\cmTC_76061.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_76061.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-405gwl\\Debug\\".
+          Создание каталога "cmTC_76061.dir\\Debug\\cmTC_76061.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_76061.dir\\Debug\\cmTC_76061.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_76061.dir\\Debug\\cmTC_76061.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_76061.dir\\Debug\\\\" /Fd"cmTC_76061.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-405gwl\\OpenMPCheckVersion.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33135 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_76061.dir\\Debug\\\\" /Fd"cmTC_76061.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-405gwl\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-405gwl\\Debug\\cmTC_76061.exe" /INCREMENTAL /ILK:"cmTC_76061.dir\\Debug\\cmTC_76061.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-405gwl/Debug/cmTC_76061.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-405gwl/Debug/cmTC_76061.lib" /MACHINE:X64  /machine:x64 cmTC_76061.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_76061.vcxproj -> D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-405gwl\\Debug\\cmTC_76061.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_76061.dir\\Debug\\cmTC_76061.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_76061.dir\\Debug\\cmTC_76061.tlog\\cmTC_76061.lastbuildstate".
+        Сборка проекта "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-405gwl\\cmTC_76061.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.06
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:4 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-4enz0b"
+      binary: "D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-4enz0b"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-4enz0b'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_24e39.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.5+b5265ef37 для .NET Framework
+        Сборка начата 05.03.2024 16:18:48.
+        
+        Проект "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4enz0b\\cmTC_24e39.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_24e39.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4enz0b\\Debug\\".
+          Создание каталога "cmTC_24e39.dir\\Debug\\cmTC_24e39.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_24e39.dir\\Debug\\cmTC_24e39.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_24e39.dir\\Debug\\cmTC_24e39.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_24e39.dir\\Debug\\\\" /Fd"cmTC_24e39.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4enz0b\\OpenMPCheckVersion.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33135 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_24e39.dir\\Debug\\\\" /Fd"cmTC_24e39.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4enz0b\\OpenMPCheckVersion.cpp"
+          OpenMPCheckVersion.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4enz0b\\Debug\\cmTC_24e39.exe" /INCREMENTAL /ILK:"cmTC_24e39.dir\\Debug\\cmTC_24e39.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-4enz0b/Debug/cmTC_24e39.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/IvanK/Desktop/parrallel/parrallel/3_task/build/CMakeFiles/CMakeScratch/TryCompile-4enz0b/Debug/cmTC_24e39.lib" /MACHINE:X64  /machine:x64 cmTC_24e39.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_24e39.vcxproj -> D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4enz0b\\Debug\\cmTC_24e39.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_24e39.dir\\Debug\\cmTC_24e39.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_24e39.dir\\Debug\\cmTC_24e39.tlog\\cmTC_24e39.lastbuildstate".
+        Сборка проекта "D:\\Users\\IvanK\\Desktop\\parrallel\\parrallel\\3_task\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4enz0b\\cmTC_24e39.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.16
+        
+      exitCode: 0
+...
