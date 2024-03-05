@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ivank/parrallel/2_task/task2/build",
+  "command": "/usr/bin/gcc   -g -fopenmp -o CMakeFiles/task2.dir/main.c.o -c /home/ivank/parrallel/2_task/task2/main.c",
+  "file": "/home/ivank/parrallel/2_task/task2/main.c"
+}
+]
