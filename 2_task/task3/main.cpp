@@ -27,7 +27,35 @@ void printMatrix(double** A, int n) {
     }
 }
 
-void new_solve(double** A, double* x, int n, double max_iters) {
+void new_solve1(double** A, double* x, int n, long long max_iters) {
+    for (int i = 0; i < n; ++i) {
+        x[i] = 0;
+    }
+    double error = 0, sum = 0; 
+    int i = 0, j = 0;
+    double t = omp_get_wtime();
+    #pragma omp parallel shared(A, x, error) private(i, j, sum) num_threads (num_of_threads)
+    {
+        for (int iter = 0; iter < max_iters; ++iter) {
+            error = 0;
+            for (i = 0; i < n; ++i) {
+                sum = 0;
+                for (j = 0; j < n; ++j) {
+                    sum += A[i][j] * x[j];
+                }
+                error += ((sum - A[i][n]) * (sum - A[i][n])) / (A[i][n] * A[i][n]);
+                x[i] -= 0.0025 * (sum - A[i][n]);
+            }
+            if (error < EPSILON * EPSILON) {
+                break;
+            }
+        }
+    }
+    t = omp_get_wtime() - t;
+    cout << "No using for: " << t << "\n";
+}
+
+void new_solve2(double** A, double* x, int n, long long max_iters) {
     for (int i = 0; i < n; ++i) {
         x[i] = 0;
     }
@@ -46,18 +74,16 @@ void new_solve(double** A, double* x, int n, double max_iters) {
             x[i] -= 0.0025 * (sum - A[i][n]);
         }
         if (error < EPSILON * EPSILON) {
-            cout << "iters: " << iter << "\n";
             break;
         }
     }
     t = omp_get_wtime() - t;
-    cout << t << "\n";
-    printf("%lf\n%lf\n", x[0], x[1]);
+    cout << "Using for: "<< t << "\n";
 }
 
 int main(int argc, char **argv) {
     num_of_threads = atoi(argv[1]);
-
+    //num_of_threads = 1;
     int n = 2000;
     double** A = new double* [n];
     for (int i = 0; i < n; ++i) {
@@ -77,7 +103,8 @@ int main(int argc, char **argv) {
 
     long long maxIterations = 100000000;
 
-    new_solve(A, x, n, maxIterations);
+    new_solve2(A, x, n, maxIterations);
+    new_solve1(A, x, n, maxIterations);
     
     for (int i = 0; i < n; ++i) {
         delete[] A[i];

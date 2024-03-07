@@ -8,7 +8,7 @@ enable_testing()
 
 add_executable(task3 main.cpp)
 
-target_link_libraries(task3 PRIVATE m)
+#target_link_libraries(task3 PRIVATE m)
 
 target_link_libraries(task3 PRIVATE "${OpenMP_C_FLAGS}")
 target_compile_options(task3 PRIVATE "${OpenMP_C_FLAGS}")

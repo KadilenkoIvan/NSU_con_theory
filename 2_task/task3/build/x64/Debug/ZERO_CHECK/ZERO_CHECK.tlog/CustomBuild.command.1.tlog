@@ -1,0 +1,10 @@
+^D:\USERS\IVANK\DESKTOP\PARRALLEL\2_TASK\TASK3\BUILD\CMAKEFILES\5A1BC73BA5EB855E32CB77D650C8FD60\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Users/IvanK/Desktop/parrallel/2_task/task3 -BD:/Users/IvanK/Desktop/parrallel/2_task/task3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Users/IvanK/Desktop/parrallel/2_task/task3/build/task3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
