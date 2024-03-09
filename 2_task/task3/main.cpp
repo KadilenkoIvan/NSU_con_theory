@@ -27,7 +27,7 @@ void printMatrix(double** A, int n) {
     }
 }
 
-void new_solve1(double** A, double* x, int n, long long max_iters) {
+void new_solve1(double* A, double* x, int n, long long max_iters) {
     for (int i = 0; i < n; ++i) {
         x[i] = 0;
     }
@@ -41,10 +41,10 @@ void new_solve1(double** A, double* x, int n, long long max_iters) {
             for (i = 0; i < n; ++i) {
                 sum = 0;
                 for (j = 0; j < n; ++j) {
-                    sum += A[i][j] * x[j];
-                }
-                error += ((sum - A[i][n]) * (sum - A[i][n])) / (A[i][n] * A[i][n]);
-                x[i] -= 0.0025 * (sum - A[i][n]);
+                sum += A[i * n + j] * x[j];
+            }
+            error += ((sum - A[i * n + n]) * (sum - A[i * n + n])) / (A[i * n + n] * A[i * n + n]);
+            x[i] -= 0.01 * (sum - A[i * n + n]);
             }
             if (error < EPSILON * EPSILON) {
                 break;
@@ -55,7 +55,7 @@ void new_solve1(double** A, double* x, int n, long long max_iters) {
     cout << "No using for: " << t << "\n";
 }
 
-void new_solve2(double** A, double* x, int n, long long max_iters) {
+void new_solve2(double* A, double* x, int n, long long max_iters) {
     for (int i = 0; i < n; ++i) {
         x[i] = 0;
     }
@@ -68,10 +68,10 @@ void new_solve2(double** A, double* x, int n, long long max_iters) {
         for (i = 0; i < n; ++i) {
             sum = 0;
             for (j = 0; j < n; ++j) {
-                sum += A[i][j] * x[j];
+                sum += A[i * n + j] * x[j];
             }
-            error += ((sum - A[i][n]) * (sum - A[i][n])) / (A[i][n] * A[i][n]);
-            x[i] -= 0.0025 * (sum - A[i][n]);
+            error += ((sum - A[i * n + n]) * (sum - A[i * n + n])) / (A[i * n + n] * A[i * n + n]);
+            x[i] -= 0.01 * (sum - A[i * n + n]);
         }
         if (error < EPSILON * EPSILON) {
             break;
@@ -82,33 +82,27 @@ void new_solve2(double** A, double* x, int n, long long max_iters) {
 }
 
 int main(int argc, char **argv) {
-    num_of_threads = atoi(argv[1]);
-    //num_of_threads = 1;
-    int n = 2000;
-    double** A = new double* [n];
-    for (int i = 0; i < n; ++i) {
-        A[i] = new double[n + 1];
-    }
+    //num_of_threads = atoi(argv[1]);
+    num_of_threads = 16;
+    int n = 2200;
+    double* A = new double [n * n + n];
 
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n + 1; ++j) {
-            A[i][j] = 1;
+            A[i * n + j] = 1;
         }
-        A[i][i] = 2;
-        A[i][n] = n + 1;
+        A[i * n + i] = 2;
+        A[i * n + n] = n + 1;
     }
     //printMatrix(A, n);
 
     double* x = new double[n] {0};
 
-    long long maxIterations = 100000000;
+    long long maxIterations = 3000;
 
     new_solve2(A, x, n, maxIterations);
     new_solve1(A, x, n, maxIterations);
     
-    for (int i = 0; i < n; ++i) {
-        delete[] A[i];
-    }
     delete[] A;
     delete[] x;
 
