@@ -1,0 +1,9 @@
+D:/Users/IvanK/Desktop/parrallel/3_task/task2/build/CMakeFiles/Experimental.dir
+D:/Users/IvanK/Desktop/parrallel/3_task/task2/build/CMakeFiles/Nightly.dir
+D:/Users/IvanK/Desktop/parrallel/3_task/task2/build/CMakeFiles/Continuous.dir
+D:/Users/IvanK/Desktop/parrallel/3_task/task2/build/CMakeFiles/NightlyMemoryCheck.dir
+D:/Users/IvanK/Desktop/parrallel/3_task/task2/build/CMakeFiles/thread_server.dir
+D:/Users/IvanK/Desktop/parrallel/3_task/task2/build/CMakeFiles/PACKAGE.dir
+D:/Users/IvanK/Desktop/parrallel/3_task/task2/build/CMakeFiles/RUN_TESTS.dir
+D:/Users/IvanK/Desktop/parrallel/3_task/task2/build/CMakeFiles/ALL_BUILD.dir
+D:/Users/IvanK/Desktop/parrallel/3_task/task2/build/CMakeFiles/ZERO_CHECK.dir
