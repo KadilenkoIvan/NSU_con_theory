@@ -1,5 +1,5 @@
 CXX=pgc++
-CXXFLAGS=-fast -ta=tesla:managed -acc -lboost_program_options
+CXXFLAGS=-fast -acc -lboost_program_options
 
 NVTXLIB := -I/opt/nvidia/hpc_sdk/Linux_x86_64/23.11/cuda/12.3/include/
 
